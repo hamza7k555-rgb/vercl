@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/.netlify/functions/:path*", "destination": "/api/send" },
+    { "source": "/api/:path*", "destination": "/api/send" }
+  ],
+  "functions": {
+    "api/send.js": { "maxDuration": 60 }
+  }
+}
