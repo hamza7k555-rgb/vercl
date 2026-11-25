@@ -1,0 +1,7 @@
+{
+  "name": "telegram-forms",
+  "version": "1.0.0",
+  "description": "Multi-form Telegram sender via single serverless function",
+  "private": true,
+  "license": "ISC"
+}
